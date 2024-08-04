@@ -1,0 +1,30 @@
+<p>test3 works!</p>
+<!-- <pre>{{data| json}}</pre> -->
+
+<app-box1 class="box"> BOX 1</app-box1>
+
+
+<app-box2 class="box"> BOX 2</app-box2>
+
+<app-box3 class="box"> BOX 3</app-box3>
+
+<app-box4 class="box"> BOX 4</app-box4>
+
+
+<app-box5 class="box"> BOX 5</app-box5>
+
+<app-box6 class="box"> BOX 6</app-box6>
+
+
+
+<!-- @defer () {
+    <app-box7 class="box"> BOX 7</app-box7>
+} -->
+
+
+
+@defer (on viewport) {
+    <app-box7 class="box"> BOX 7</app-box7>
+} @placeholder {
+    <div>Content will load</div>
+}
